@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+$org: #FF781F; 
+@mixin flex($jus: center, $alg: center){
+    display: flex;
+    justify-content: $jus;
+    align-items: $alg;
+}
+@mixin dimension($ln, $hg){
+    width: $ln;
+    height: $hg;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // font-family: 'Nunito', sans-serif;
+    // font-family: 'Indie Flower', cursive;
+    // font-family: 'Patrick Hand', cursive;
+}
+
+html {
+    font-size: 12px;
+    // Magic:
+    @media (min-width: 500px) {
+      font-size: calc(2px + 2vw);
+    }
+  }
+
+/*Front Page*/
+
+#vid{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -99;
+  }
+
+  .front_container{
+      @include dimension(100vw, 100vh);
+      @include flex(space-between, none);
+      flex-direction: column;
+      .intro{
+          color: #fff;
+          padding-top: 35vh;
+          text-align: center;
+          h1{
+              font-size: 3rem;
+              font-family: 'Merienda', cursive;
+              .orange{
+                  color: $org;
+                  font-size: 4rem;
+                  cursor: pointer;
+              }
+          }
+          button{
+              background-color: transparent;
+              color: #fff;
+              border: 1px solid $org;
+              outline: none;
+              padding: 1vh 2vw;
+              margin-top: 2vh;
+              border-radius: 5px;
+              font-family: 'Nunito', sans-serif;
+              transition: 400ms;
+              &:hover{
+                  border-radius: 10px;
+              }
+            }
+      }
+      nav{
+          border: 1px solid white;
+      }
+  }
+  

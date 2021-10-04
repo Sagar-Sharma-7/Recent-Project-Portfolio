@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 12px;
+}
+
+@media (min-width: 500px) {
+  html {
+    font-size: calc(2px + 2vw);
+  }
+}
+
+/*Front Page*/
+#vid {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -99;
+}
+
+.front_container {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: none;
+      -ms-flex-align: none;
+          align-items: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.front_container .intro {
+  color: #fff;
+  padding-top: 35vh;
+  text-align: center;
+}
+
+.front_container .intro h1 {
+  font-size: 3rem;
+  font-family: 'Merienda', cursive;
+}
+
+.front_container .intro h1 .orange {
+  color: #FF781F;
+  font-size: 4rem;
+  cursor: pointer;
+}
+
+.front_container .intro button {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #FF781F;
+  outline: none;
+  padding: 1vh 2vw;
+  margin-top: 2vh;
+  border-radius: 5px;
+  font-family: 'Nunito', sans-serif;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+}
+
+.front_container .intro button:hover {
+  border-radius: 10px;
+}
+
+.front_container nav {
+  border: 1px solid white;
+}
+/*# sourceMappingURL=style.css.map */
