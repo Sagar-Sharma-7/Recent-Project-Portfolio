@@ -25,8 +25,8 @@ $org: #FF781F;
 html {
     font-size: 12px;
     // Magic:
-    @media (min-width: 500px) {
-      font-size: calc(2px + 2vw);
+    @media (min-width: 700px) {
+      font-size: calc(10px + 0.5vw);
     }
   }
 
@@ -47,8 +47,8 @@ html {
       flex-direction: column;
       .intro{
           color: #fff;
-          padding-top: 35vh;
           text-align: center;
+          padding: 35vh 1.2vw 0 1.2vw;
           h1{
               font-size: 3rem;
               font-family: 'Merienda', cursive;
@@ -68,13 +68,23 @@ html {
               border-radius: 5px;
               font-family: 'Nunito', sans-serif;
               transition: 400ms;
+              font-size: 1rem;
               &:hover{
                   border-radius: 10px;
               }
             }
       }
       nav{
-          border: 1px solid white;
+          padding: 2vh;
+          backdrop-filter: blur( 5px );
+          -webkit-backdrop-filter: blur( 10px );
+          border-top: 1px solid rgba(252, 252, 252, 0.274);
+          a{
+              text-decoration: none;
+              color: #fff;
+              font-size: 1.3rem;
+              margin: 0 10vw 0 1vw;
+          }
       }
   }
   
