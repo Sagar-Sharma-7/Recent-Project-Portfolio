@@ -94,5 +94,11 @@ html {
   color: #fff;
   font-size: 1.3rem;
   margin: 0 10vw 0 1vw;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+}
+
+.front_container nav a:hover {
+  color: #FF781F;
 }
 /*# sourceMappingURL=style.css.map */

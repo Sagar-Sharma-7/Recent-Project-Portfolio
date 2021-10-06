@@ -84,6 +84,10 @@ html {
               color: #fff;
               font-size: 1.3rem;
               margin: 0 10vw 0 1vw;
+              transition: 400ms;
+              &:hover{
+                  color: $org;
+              }
           }
       }
   }
