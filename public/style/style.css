@@ -11,6 +11,7 @@
 
 html {
   font-size: 12px;
+  scroll-behavior: smooth;
 }
 
 @media (min-width: 700px) {
@@ -147,6 +148,13 @@ html {
   color: #FF781F;
 }
 
+.front_container .sticky {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+/*projects*/
 /*scroll bar*/
 /* width */
 ::-webkit-scrollbar {

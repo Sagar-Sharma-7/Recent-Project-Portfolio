@@ -27,10 +27,10 @@ html {
     @media (min-width: 700px) {
       font-size: calc(10px + 0.5vw);
     }
+    scroll-behavior: smooth;
   }
 
 /*Front Page*/
-
 #vid{
     position: fixed;
     right: 0;
@@ -111,7 +111,15 @@ html {
               }
           }
       }
+      .sticky{
+        position: fixed;
+        top: 0;
+        right: 0;
+      }
   }
+
+/*projects*/
+
 
 
 
