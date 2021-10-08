@@ -104,7 +104,7 @@ html {
               text-decoration: none;
               color: #fff;
               font-size: 1.3rem;
-              margin: 0 10vw 0 1vw;
+              margin: 0 7vw 0 1vw;
               transition: 400ms;
               &:hover{
                   color: $org;
@@ -115,12 +115,17 @@ html {
         position: fixed;
         top: 0;
         right: 0;
+        background-color: #000;
+        width: 100%;
       }
   }
 
 /*projects*/
 
-
+.projects{
+  @include dimension(100%, 100vh );
+  background-color: #fff;
+}
 
 
   /*scroll bar*/
