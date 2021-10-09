@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 $org: #FF781F; 
 @mixin flex($jus: center, $alg: center){
     display: flex;
@@ -17,9 +18,6 @@ $org: #FF781F;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    // font-family: 'Nunito', sans-serif;
-    // font-family: 'Indie Flower', cursive;
-    // font-family: 'Patrick Hand', cursive;
 }
 
 html {
@@ -125,6 +123,33 @@ html {
 .projects{
   @include dimension(100%, 100vh );
   background-color: #fff;
+  padding-top: 10vh;
+  // font-family: 'Roboto', sans-serif;
+  h1{
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    margin-bottom: 3vh;
+    font-size: 3rem;
+  }
+  p{
+    text-align: center;
+    line-height: 10px;
+    font-size: 1.2rem;
+    a{
+      text-decoration: none;
+      color: $org;
+    }
+  }
+  .box_container{
+    margin-top: 5vh;
+    @include dimension(100%, 65vh);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2vw;
+    div{
+      border: 1px solid orange;
+    }
+  }
 }
 
 
