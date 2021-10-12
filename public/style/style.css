@@ -167,7 +167,7 @@ html {
 .projects h1 {
   font-family: 'Acme', sans-serif;
   text-align: center;
-  margin-bottom: 3vh;
+  margin-bottom: 1vh;
   font-size: 3rem;
 }
 
@@ -185,7 +185,7 @@ html {
 .projects .box_container {
   margin-top: 5vh;
   width: 100%;
-  height: 65vh;
+  height: 62vh;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];
@@ -194,16 +194,25 @@ html {
   padding: 0 1vw;
 }
 
-.projects .box_container div {
+.projects .box_container .box {
   border: 1px solid orange;
   border-radius: 10px;
   overflow: hidden;
+  -webkit-transition: -webkit-transform 0.6s;
+  transition: -webkit-transform 0.6s;
+  transition: transform 0.6s;
+  transition: transform 0.6s, -webkit-transform 0.6s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.projects .box_container div img {
+.projects .box_container .box img {
   width: 100%;
   height: 100%;
   cursor: pointer;
+  z-index: 100;
 }
 
 /*scroll bar*/
