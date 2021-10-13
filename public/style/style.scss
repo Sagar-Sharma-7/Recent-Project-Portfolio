@@ -182,6 +182,11 @@ html {
           }
         }
       }
+      
+    }
+    #footer_proj{
+      grid-column: 1/ span 3;
+      grid-row: 3;
     }
   }
 }
@@ -216,6 +221,11 @@ html {
   .projects{
     .box_container{
       grid-template-columns: repeat(2,1fr);
+      #footer_proj{
+        grid-column: 1/ span 2;
+        grid-row: 4;
+        margin-top: 2vh;
+      }
     }
   }
 }

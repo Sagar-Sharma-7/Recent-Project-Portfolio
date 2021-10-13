@@ -251,6 +251,14 @@ html {
   color: #fff;
 }
 
+.projects .box_container #footer_proj {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/ span 3;
+  -ms-grid-row: 3;
+  grid-row: 3;
+}
+
 /*scroll bar*/
 /* width */
 ::-webkit-scrollbar {
@@ -277,6 +285,14 @@ html {
   .projects .box_container {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
+  }
+  .projects .box_container #footer_proj {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/ span 2;
+    -ms-grid-row: 4;
+    grid-row: 4;
+    margin-top: 2vh;
   }
 }
 
