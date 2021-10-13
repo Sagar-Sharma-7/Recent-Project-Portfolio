@@ -98,6 +98,7 @@ html {
           backdrop-filter: blur( 2px );
           -webkit-backdrop-filter: blur( 10px );
           border-top: 1px solid rgba(59, 59, 59, 0.274);
+          z-index: 9999;
           a{
               text-decoration: none;
               color: #fff;
@@ -121,7 +122,6 @@ html {
 /*projects*/
 
 .projects{
-  @include dimension(100%, 100vh );
   background-color: #fff;
   padding-top: 10vh;
   // font-family: 'Roboto', sans-serif;
@@ -142,7 +142,6 @@ html {
   }
   .box_container{
     margin-top: 5vh;
-    @include dimension(100%, 62vh);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2vw;
@@ -187,4 +186,22 @@ html {
     background: #555; 
   }
   
+
+
+// responsive()
+@media all and (max-width:850px){
+  .projects{
+    .box_container{
+      grid-template-columns: repeat(2,1fr);
+    }
+  }
+}
+  
+@media all and (max-width:600px){
+  .projects{
+    .box_container{
+      grid-template-columns: repeat(1,1fr);
+    }
+  }
+}
   
