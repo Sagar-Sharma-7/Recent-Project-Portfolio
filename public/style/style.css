@@ -192,7 +192,6 @@ html {
 }
 
 .projects .box_container .box {
-  border: 1px solid orange;
   border-radius: 10px;
   overflow: hidden;
   -webkit-transition: -webkit-transform 0.6s;
@@ -201,8 +200,8 @@ html {
   transition: transform 0.6s, -webkit-transform 0.6s;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .projects .box_container .box img {
@@ -210,6 +209,46 @@ html {
   height: 100%;
   cursor: pointer;
   z-index: 100;
+}
+
+.projects .box_container .box .detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.projects .box_container .box .detail .title {
+  padding: 1vh 0;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.projects .box_container .box .detail .about_proj {
+  line-height: 20px !important;
+}
+
+.projects .box_container .box .detail button {
+  margin-bottom: 2vh;
+  width: 80%;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: #1e1e1e;
+  color: #FF781F;
+  padding: 1vh 0;
+}
+
+.projects .box_container .box .detail button:hover {
+  color: #fff;
 }
 
 /*scroll bar*/
