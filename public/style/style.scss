@@ -192,6 +192,24 @@ html {
 }
 
 
+// Contact
+.contact_container{
+  @include dimension(100%, 92vh);
+  @include flex(center, center);
+  div{
+    border: 1px solid white;
+    @include dimension(50vw, auto);
+    text-align: center;
+    color: #fff;
+  }
+  .left{
+    h1{
+      font-size: 6rem;
+    }
+  }
+}
+
+
   /*scroll bar*/
   /* width */
 ::-webkit-scrollbar {

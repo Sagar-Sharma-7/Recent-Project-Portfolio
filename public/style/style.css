@@ -256,6 +256,32 @@ html {
   grid-row: 3;
 }
 
+.contact_container {
+  width: 100%;
+  height: 92vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact_container div {
+  border: 1px solid white;
+  width: 50vw;
+  height: auto;
+  text-align: center;
+  color: #fff;
+}
+
+.contact_container .left h1 {
+  font-size: 6rem;
+}
+
 /*scroll bar*/
 /* width */
 ::-webkit-scrollbar {
