@@ -1,0 +1,22 @@
+{
+  "name": "github-projects-2",
+  "version": "1.0.0",
+  "description": "Under Development 🚧🚧🚧🚧🚧🚧",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sagar-Sharma-7/My-Projects.git"
+  },
+  "author": "Sagar Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sagar-Sharma-7/My-Projects/issues"
+  },
+  "homepage": "https://github.com/Sagar-Sharma-7/My-Projects#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
