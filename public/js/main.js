@@ -5,6 +5,7 @@ const sticky = nav.offsetTop;
 const title = document.querySelectorAll(".title");
 const info = document.querySelectorAll(".about_proj");
 const details = document.querySelectorAll(".detail");
+const visit_btn = document.querySelectorAll(".Proj_link");
 
 span.addEventListener("click", ()=>{
     window.open("https://github.com/Sagar-Sharma-7")
@@ -24,7 +25,7 @@ const data = {
         {
             "title": "Title2",
             "content": "Information about project2",
-            "link": "https://github.com/Sagar-Sharma-7/Recent-Project-Portfolio"
+            "link": "https://google.com"
         },
         {
             "title": "Title3",
@@ -52,6 +53,12 @@ let i;
 for(i = 0; i <6; i++ ){
     title[i].innerHTML = data.info[i].title;
     info[i].innerHTML = data.info[i].content;
+    visit_btn[i].setAttribute("target", "_blank");
+    visit_btn[i].href = data.info[i].link;
+    visit_btn.forEach(element => {
+        element.innerHTML = "Visit";
+    });
+
 }
 
 console.log("Under Development!");

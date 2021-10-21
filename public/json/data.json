@@ -1,9 +1,9 @@
 {
     "info": [
         {
-            "title": "Title1",
-            "content": "Information about project1",
-            "link": "https://github.com/Sagar-Sharma-7/Recent-Project-Portfolio"
+            "title": "Movies In Theater",
+            "content": "IMDB API In theater project. Get information about upcoming movies.",
+            "link": "https://github.com/Sagar-Sharma-7/imbd-In_Theater"
         },
         {
             "title": "Title2",
