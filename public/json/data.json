@@ -6,29 +6,29 @@
             "link": "https://github.com/Sagar-Sharma-7/imbd-In_Theater"
         },
         {
-            "title": "Title2",
-            "content": "Information about project2",
-            "link": "https://github.com/Sagar-Sharma-7/Recent-Project-Portfolio"
+            "title": "Fibonacci Series",
+            "content": "Fibonacci Series is series that start with 0, followed by 1 and the next number is found by adding up the two numbers before it.",
+            "link": "https://github.com/Sagar-Sharma-7/Fibonacci_series"
         },
         {
-            "title": "Title3",
-            "content": "Information about project3",
-            "link": "https://github.com/Sagar-Sharma-7/Recent-Project-Portfolio"
+            "title": "Astronomy picture of the day",
+            "content": "Astronomy Picture of the Day, explore the space and cosmos. Get different images of space each day. Using NASA APOD API.",
+            "link": "https://github.com/Sagar-Sharma-7/Astronomy-picture-of-the-day"
         },
         {
-            "title": "Title4",
-            "content": "Information about project4",
-            "link": "https://github.com/Sagar-Sharma-7/Recent-Project-Portfolio"
+            "title": "key codes",
+            "content": "JavaScript keyboard events help you capture user interactions with the keyboard. Click on the link below to get the key code of the pressed key.",
+            "link": "https://github.com/Sagar-Sharma-7/key-codes"
         },
         {
-            "title": "Title5",
-            "content": "Information about project5",
-            "link": "https://github.com/Sagar-Sharma-7/Recent-Project-Portfolio"
+            "title": "Binary Octal Hexadecimal",
+            "content": "A simple Command-Line Interface (CLI) converts decimal numbers into binary, octal, and hexadecimal.",
+            "link": "https://github.com/Sagar-Sharma-7/binary-octal-hexadecimal"
         },
         {
-            "title": "Title6",
-            "content": "Information about project6",
-            "link": "https://github.com/Sagar-Sharma-7/Recent-Project-Portfolio"
+            "title": "Dictionary",
+            "content": "nglish Dictionary built using API. Enter your search term to use this free and unabridged dictionary.",
+            "link": "https://github.com/Sagar-Sharma-7/dictionary"
         }
     ]
 }

@@ -208,6 +208,7 @@ html {
   cursor: pointer;
   z-index: 100;
   width: 100%;
+  height: 50vh;
 }
 
 .projects .box_container .box .detail {
