@@ -44,7 +44,7 @@ const data = {
         },
         {
             "title": "Dictionary",
-            "content": "nglish Dictionary built using API. Enter your search term to use this free and unabridged dictionary.",
+            "content": "English Dictionary built using API. Enter your search term to use this free and unabridged dictionary.",
             "link": "https://github.com/Sagar-Sharma-7/dictionary"
         }
     ]
