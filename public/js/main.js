@@ -43,9 +43,9 @@ const data = {
             "link": "https://github.com/Sagar-Sharma-7/binary-octal-hexadecimal"
         },
         {
-            "title": "Dictionary",
-            "content": "English Dictionary built using API. Enter your search term to use this free and unabridged dictionary.",
-            "link": "https://github.com/Sagar-Sharma-7/dictionary"
+            "title": "Age Calculator",
+            "content": "Enter your Date of Birth and this project will return your age in seconds, minutes, hours, days, weeks and months",
+            "link": "https://sagar-sharma-7.github.io/Age-Calc/"
         }
     ]
 };
