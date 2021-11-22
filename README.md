@@ -17,3 +17,11 @@
  ![scss](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
  ![js](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
  ![jquery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
+
+------
+
+ ## Cloning this repositary using command line
+ 1. Open **Git Bash**.
+ 1. Change the current working directory to the location where you want the cloned directory.
+ 1. Type `git clone https://github.com/Sagar-Sharma-7/Recent-Project-Portfolio.git`
+ 1. Press **Enter** to create the clone of this repositary.
