@@ -23,9 +23,9 @@ const data = {
             "link": "https://github.com/Sagar-Sharma-7/imbd-In_Theater"
         },
         {
-            "title": "Fibonacci Series",
-            "content": "Fibonacci Series is series that start with 0, followed by 1 and the next number is found by adding up the two numbers before it.",
-            "link": "https://github.com/Sagar-Sharma-7/Fibonacci_series"
+            "title": "Tic Tac Toe",
+            "content": "Tic-Tac-toe is a simple two-player game which is also called Noughts and Crosses.",
+            "link": "https://github.com/Sagar-Sharma-7/Tic-Tac-Toe"
         },
         {
             "title": "Astronomy picture of the day",
